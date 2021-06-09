@@ -6,7 +6,8 @@ logging.basicConfig(level=logging.INFO)
 logger = logging.getLogger(__name__)
 
 
-layout1 = html.Div([
+# the layout for dish recommender
+layout_dish_recom = html.Div([
     html.H3('App 1'),
     dcc.Dropdown(
         id='app-1-dropdown',
@@ -20,7 +21,8 @@ layout1 = html.Div([
     dcc.Link('Go to App 2', href='/apps/app2')
 ])
 
-layout2 = html.Div([
+# the layout for restaurant recommender
+layout_rest_recom = html.Div([
     html.H3('App 2'),
     dcc.Dropdown(
         id='app-2-dropdown',

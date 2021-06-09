@@ -4,7 +4,7 @@ from dash.dependencies import Input, Output
 import logging
 
 from app import app
-from layouts import layout1, layout2
+from layouts import layout_dish_recom, layout_rest_recom
 import callbacks
 
 logging.basicConfig(level=logging.INFO)
@@ -21,9 +21,9 @@ app.layout = html.Div([
               Input('url', 'pathname'))
 def display_page(pathname):
     if pathname == '/apps/app1':
-        return layout1
+        return layout_dish_recom
     elif pathname == '/apps/app2':
-        return layout2
+        return layout_rest_recom
     else:
         return '404'
 
