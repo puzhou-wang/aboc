@@ -6,6 +6,10 @@ logging.basicConfig(level=logging.INFO)
 logger = logging.getLogger(__name__)
 
 
+# todo: get the entry layout right
+# the entry layout
+layout_entry = html.Div()
+
 # the layout for dish recommender
 layout_dish_recom = html.Div([
     html.H3('App 1'),
