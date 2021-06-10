@@ -6,9 +6,16 @@ logging.basicConfig(level=logging.INFO)
 logger = logging.getLogger(__name__)
 
 
-# todo: get the entry layout right
 # the entry layout
-layout_entry = html.Div()
+layout_entry = html.Div(children=[
+    html.H2('Welcome to A Bite of China!'),
+    html.Div(className='row', children=[
+        dcc.Link(html.Button('Explore Dishes'), href='/apps/app1')
+    ], style={'padding': 10}),
+    html.Div(className='row', children=[
+        dcc.Link(html.Button('Recommend Restaurants'), href='/apps/app2')
+    ], style={'padding': 10})
+])
 
 # the layout for dish recommender
 layout_dish_recom = html.Div([
