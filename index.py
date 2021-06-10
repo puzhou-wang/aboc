@@ -17,16 +17,26 @@ app.layout = html.Div([
 ])
 
 
+'''
+when user clicks data points in /apps/dish, they will be redirected to /apps/rest/chow_mein
+'''
 @app.callback(Output('page-content', 'children'),
               Input('url', 'pathname'))
 def display_page(pathname):
     if pathname == '/':
         logger.info('app opened at entry page!')
         return layout_entry
-    elif pathname == '/apps/app1':
+    elif pathname == '/apps/dish':
+        logger.info('dish explorer visited!')
         return layout_dish_recom
-    elif pathname == '/apps/app2':
-        return layout_rest_recom
+    elif pathname.startswith('/apps/rest'):
+        dish_selected = pathname[10:]
+        if not dish_selected:   # user goes into restaurant recommender from entry page
+            logger.info('restaurant recommender visited from entry page!')
+            return layout_rest_recom
+        else:   # user goes into restaurant recommender by selecting a dish in dish explorer
+            logger.info(f'restaurant recommender visited with selected dish: {dish_selected}')
+            return layout_rest_recom
     else:
         return '404'
 
