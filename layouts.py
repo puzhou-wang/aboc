@@ -21,29 +21,38 @@ layout_entry = html.Div(children=[
 layout_dish_recom = html.Div([
     html.H2('Welcome to A Bite of China!'),
     html.H3('Dish Explorer'),
-    dcc.Dropdown(
-        id='app-1-dropdown',
-        options=[
-            {'label': 'App 1 - {}'.format(i), 'value': i} for i in [
-                'NYC', 'MTL', 'LA'
-            ]
-        ]
-    ),
-    html.Div(id='app-1-display-value'),
-    # dcc.Link('Go to App 2', href='/apps/app2')
+    html.Div(className='row', children=[
+        html.Div('Sort all Chinese dishes by '),
+        html.Div(children=[
+            dcc.Dropdown(id='dish_sort', options=[
+                {'label': 'number of reviews', 'value': 'num_review'},
+                {'label': 'number of restaurants', 'value': 'num_rest'},
+                {'label': 'average rating', 'value': 'rating_avg_weighted'},
+            ], clearable=False, value='num_review')
+        ], style={'padding': 10, "width": "20%"})
+    ], style={'display': 'flex', 'align-items': 'center'}),
+    dcc.Graph(id='dish_plot'),
+    html.Div(className='row', children=[
+        dcc.Link(html.Button('Go Back'), href='/')
+    ], style={'padding': 10})
 ])
 
 # the layout for restaurant recommender
 layout_rest_recom = html.Div([
-    # html.H3('App 2'),
-    # dcc.Dropdown(
-    #     id='app-2-dropdown',
-    #     options=[
-    #         {'label': 'App 2 - {}'.format(i), 'value': i} for i in [
-    #             'NYC', 'MTL', 'LA'
-    #         ]
-    #     ]
-    # ),
-    # html.Div(id='app-2-display-value'),
-    # dcc.Link('Go to App 1', href='/apps/app1')
+    html.H2('Welcome to A Bite of China!'),
+    html.H3('Restaurant Recommender'),
+    # html.Div(className='row', children=[
+    #     html.Div('Sort all Chinese dishes by '),
+    #     html.Div(children=[
+    #         dcc.Dropdown(id='dish_sort', options=[
+    #             {'label': 'number of reviews', 'value': 'num_review'},
+    #             {'label': 'number of restaurants', 'value': 'num_rest'},
+    #             {'label': 'average rating', 'value': 'rating_avg_weighted'},
+    #         ], clearable=False, value='num_review')
+    #     ], style={'padding': 10, "width": "20%"})
+    # ], style={'display': 'flex', 'align-items': 'center'}),
+    # dcc.Graph(id='dish_plot'),
+    html.Div(className='row', children=[
+        dcc.Link(html.Button('Go Back'), href='/')
+    ], style={'padding': 10})
 ])
