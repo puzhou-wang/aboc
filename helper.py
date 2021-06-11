@@ -56,5 +56,5 @@ def get_rest_plot(dish_name):
                       hoverlabel=dict(bgcolor='white'),
                       marker=dict(size=10))
     fig.update_layout(xaxis=dict(title='number of reviews mentioning '+' '.join(dish_name.split('_'))),
-                      yaxis=dict(title='weighted average rating'))
+                      yaxis=dict(title='average rating'))
     return fig
