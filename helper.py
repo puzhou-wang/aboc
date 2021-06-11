@@ -70,4 +70,5 @@ def get_rest_plot(dish_name):
         name=""
     )
     fig_fr = go.Figure(data=data, layout=layout)
+    fig_fr.update_traces(hoverlabel=dict(bgcolor='white'))
     return fig_fr
