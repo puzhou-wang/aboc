@@ -29,6 +29,7 @@ def get_dish_plot(value):
     fig.update_layout(xaxis=dict(title='dish name', tickangle=270),
                       yaxis=dict(title=dict_ylabel[value]),
                       height=800)
+    fig.layout.coloraxis.colorbar.title = 'avg. rating'
     return fig
 
 
@@ -47,28 +48,13 @@ def get_df_plot(dish_name):
 
 def get_rest_plot(dish_name):
     df_plot = get_df_plot(dish_name)
-    layout = dict(
-        xaxis=dict(title='number of reviews regarding the dish'),
-        yaxis=dict(title='weighted average rating')
-    )
-    data = go.Scatter(
-        x=df_plot['num_dish_review'],
-        y=df_plot['rating_avg_weighted'],
-        text=df_plot['name'],
-        mode='markers',
-        marker=dict(
-            size=10,
-            color=df_plot['stars'],
-            colorscale='Bluered',
-            showscale=True
-        ),
-        hovertemplate=
-        "restaurant name: %{text}<br>" +
-        "restaurant stars: %{marker.color}<br>" +
-        "number of reviews for dish: %{x}<br>" +
-        "average rating for dish: %{y:.2f}<br>",
-        name=""
-    )
-    fig_fr = go.Figure(data=data, layout=layout)
-    fig_fr.update_traces(hoverlabel=dict(bgcolor='white'))
-    return fig_fr
+    fig = px.scatter(df_plot, y='rating_avg_weighted', x="num_dish_review", color="stars",
+                     color_continuous_scale='Bluered', hover_name="name")
+    hovertemplate = "restaurant name: %{hovertext}<br>restaurant stars: %{marker.color}<br>" + \
+                    "number of reviews for dish: %{x}<br>average rating for dish: %{y:.2f}<br>"
+    fig.update_traces(hovertemplate=hovertemplate,
+                      hoverlabel=dict(bgcolor='white'),
+                      marker=dict(size=10))
+    fig.update_layout(xaxis=dict(title='number of reviews regarding the dish'),
+                      yaxis=dict(title='weighted average rating'))
+    return fig
