@@ -1,9 +1,14 @@
 import dash_core_components as dcc
 import dash_html_components as html
 import logging
+import pickle
 
 logging.basicConfig(level=logging.INFO)
 logger = logging.getLogger(__name__)
+
+
+with open('./data/dropdown_options', 'rb') as f:
+    dish_options = pickle.load(f)
 
 
 # the entry layout
@@ -31,9 +36,9 @@ layout_dish_recom = html.Div([
             ], clearable=False, value='num_review')
         ], style={'padding': 10, "width": "20%"})
     ], style={'display': 'flex', 'align-items': 'center'}),
-    dcc.Graph(id='dish_plot'),
+    dcc.Graph(id='dish_plot', style={'display': 'none'}),
     html.Div(className='row', children=[
-        dcc.Link(html.Button('Go Back'), href='/')
+        dcc.Link(html.Button('Go Back to Homepage'), href='/')
     ], style={'padding': 10})
 ])
 
@@ -41,18 +46,10 @@ layout_dish_recom = html.Div([
 layout_rest_recom = html.Div([
     html.H2('Welcome to A Bite of China!'),
     html.H3('Restaurant Recommender'),
-    # html.Div(className='row', children=[
-    #     html.Div('Sort all Chinese dishes by '),
-    #     html.Div(children=[
-    #         dcc.Dropdown(id='dish_sort', options=[
-    #             {'label': 'number of reviews', 'value': 'num_review'},
-    #             {'label': 'number of restaurants', 'value': 'num_rest'},
-    #             {'label': 'average rating', 'value': 'rating_avg_weighted'},
-    #         ], clearable=False, value='num_review')
-    #     ], style={'padding': 10, "width": "20%"})
-    # ], style={'display': 'flex', 'align-items': 'center'}),
-    # dcc.Graph(id='dish_plot'),
+    dcc.Dropdown(id='dish_selector', options=dish_options, clearable=False,
+                 placeholder="Select a dish to see recommendations"),
+    dcc.Graph('rest_plot', style={'display': 'none'}),
     html.Div(className='row', children=[
-        dcc.Link(html.Button('Go Back'), href='/')
+        dcc.Link(html.Button('Go Back to Dish Explorer'), href='/apps/dish')
     ], style={'padding': 10})
 ])

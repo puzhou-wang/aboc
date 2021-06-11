@@ -35,7 +35,7 @@ def display_page(pathname):
             logger.info('restaurant recommender visited from entry page!')
             return layout_rest_recom
         else:   # user goes into restaurant recommender by selecting a dish in dish explorer
-            logger.info(f'restaurant recommender visited with selected dish: {dish_selected}')
+            logger.info(f'restaurant recommender visited with selected dish: {dish_selected[1:]}')
             return layout_rest_recom
     else:
         return '404'
