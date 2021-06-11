@@ -55,6 +55,6 @@ def get_rest_plot(dish_name):
     fig.update_traces(hovertemplate=hovertemplate,
                       hoverlabel=dict(bgcolor='white'),
                       marker=dict(size=10))
-    fig.update_layout(xaxis=dict(title='number of reviews regarding the dish'),
+    fig.update_layout(xaxis=dict(title='number of reviews mentioning '+' '.join(dish_name.split('_'))),
                       yaxis=dict(title='weighted average rating'))
     return fig
