@@ -13,7 +13,11 @@ with open('./data/dropdown_options', 'rb') as f:
 
 # the entry layout
 layout_entry = html.Div(children=[
-    html.H2('Welcome to A Bite of China!'),
+    html.H2('Welcome to A Bite of China!', style={'margin-left': 10}),
+    dcc.Markdown('''No idea which dish to try? Not a problem. Click on the **EXPLORE DISHES** button!''',
+                 style={'margin-left': 10}),
+    dcc.Markdown('''Already have a dish in mind? Click on the **EXPLORE RESTAURANTS** button!''',
+                 style={'margin-left': 10}),
     html.Div(className='row', children=[
         dcc.Link(html.Button('Explore Dishes'), href='/apps/dish')
     ], style={'padding': 10}),
@@ -36,6 +40,10 @@ layout_dish_recom = html.Div([
             ], clearable=False, value='num_review')
         ], style={'padding': 10, "width": "20%"})
     ], style={'display': 'flex', 'align-items': 'center'}),
+    dcc.Markdown('''
+        Feel free to zoom in and out in the figure below! 
+        Click on each bar and explore restaurants serving the dish of interest!
+    '''),
     dcc.Graph(id='dish_plot', style={'display': 'none'}),
     html.Div(className='row', children=[
         dcc.Link(html.Button('Go Back to Homepage'), href='/')
@@ -46,6 +54,13 @@ layout_dish_recom = html.Div([
 layout_rest_recom = html.Div([
     html.H2('Welcome to A Bite of China!'),
     html.H3('Restaurant Explorer'),
+    dcc.Markdown('''
+        Each restaurant is represented as a data point in 2D plot, with dimensions as the number of reviews and
+         average rating. Color is based on the number of stars for a restaurant.
+    '''),
+    dcc.Markdown('''
+        Change mind? No problem! Try a different dish from the dropdown menu below!
+    '''),
     dcc.Dropdown(id='dish_selector', options=dish_options, clearable=False,
                  placeholder="Select a dish to see recommendations"),
     dcc.Graph('rest_plot', style={'display': 'none'}),
