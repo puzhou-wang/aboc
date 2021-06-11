@@ -54,8 +54,6 @@ def url_to_dish_selector(pathname):
     Input('dish_selector', 'value'))
 def url_to_dish_selector(dish_name):
     if dish_name:
-        # dish_selected = pathname[10:]
-        # logger.info(f'update dish selector with value of {dish_selected[1:]}')
-        return [None, {}]
+        return [helper.get_rest_plot(dish_name), {}]
     else:
         raise PreventUpdate

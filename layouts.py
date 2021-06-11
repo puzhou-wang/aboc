@@ -18,7 +18,7 @@ layout_entry = html.Div(children=[
         dcc.Link(html.Button('Explore Dishes'), href='/apps/dish')
     ], style={'padding': 10}),
     html.Div(className='row', children=[
-        dcc.Link(html.Button('Recommend Restaurants'), href='/apps/rest')
+        dcc.Link(html.Button('Explore Restaurants'), href='/apps/rest')
     ], style={'padding': 10})
 ])
 
@@ -45,7 +45,7 @@ layout_dish_recom = html.Div([
 # the layout for restaurant recommender
 layout_rest_recom = html.Div([
     html.H2('Welcome to A Bite of China!'),
-    html.H3('Restaurant Recommender'),
+    html.H3('Restaurant Explorer'),
     dcc.Dropdown(id='dish_selector', options=dish_options, clearable=False,
                  placeholder="Select a dish to see recommendations"),
     dcc.Graph('rest_plot', style={'display': 'none'}),
