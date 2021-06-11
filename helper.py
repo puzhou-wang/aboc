@@ -26,7 +26,7 @@ def get_dish_plot(value):
     # hover template
     htemplate = f'%{{x}}<br>{dict_ylabel[value]}: %{{y:.{dict_yprecision[value]}f}}'
     fig.update_traces(hovertemplate=htemplate, hoverlabel=dict(bgcolor='white'))
-    fig.update_layout(xaxis=dict(title='dish name'),
+    fig.update_layout(xaxis=dict(title='dish name', tickangle=270),
                       yaxis=dict(title=dict_ylabel[value]),
                       height=800)
     return fig
