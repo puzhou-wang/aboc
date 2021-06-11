@@ -1,83 +1,83 @@
 dish_name,num_review,num_rest,rating_avg,rating_avg_weighted,link
-baby bok choy,62,48,3.8225806451612905,3.869372882283644,"<a href=""/apps/rest/baby_bok_choy"">See Restaurant Recommendations</a>"
-bamboo shoots,72,62,3.4583333333333335,3.6372967339432716,"<a href=""/apps/rest/bamboo_shoots"">See Restaurant Recommendations</a>"
-bbq pork,283,117,3.537102473498233,3.5415429917051426,"<a href=""/apps/rest/bbq_pork"">See Restaurant Recommendations</a>"
-bbq pork buns,37,18,3.7027027027027026,3.661454113850458,"<a href=""/apps/rest/bbq_pork_buns"">See Restaurant Recommendations</a>"
-beef chow fun,175,81,3.657142857142857,3.6447998300760487,"<a href=""/apps/rest/beef_chow_fun"">See Restaurant Recommendations</a>"
-beef noodle soup,297,53,3.7138047138047137,3.6812882640283746,"<a href=""/apps/rest/beef_noodle_soup"">See Restaurant Recommendations</a>"
-beef roll,89,14,3.7191011235955056,3.7524815277248837,"<a href=""/apps/rest/beef_roll"">See Restaurant Recommendations</a>"
-beef stew,116,54,3.5948275862068964,3.66546964944433,"<a href=""/apps/rest/beef_stew"">See Restaurant Recommendations</a>"
-beef tendon,69,29,3.63768115942029,3.64906015184517,"<a href=""/apps/rest/beef_tendon"">See Restaurant Recommendations</a>"
-beef tongue,26,7,3.923076923076923,3.879724121917174,"<a href=""/apps/rest/beef_tongue"">See Restaurant Recommendations</a>"
-black sesame,41,12,4.2926829268292686,4.22327675146921,"<a href=""/apps/rest/black_sesame"">See Restaurant Recommendations</a>"
-bok choy,217,114,3.728110599078341,3.7728080049245776,"<a href=""/apps/rest/bok_choy"">See Restaurant Recommendations</a>"
-brown rice,448,192,3.6049107142857144,3.603269041673694,"<a href=""/apps/rest/brown_rice"">See Restaurant Recommendations</a>"
-cashew chicken,145,110,3.206896551724138,3.2316331736379498,"<a href=""/apps/rest/cashew_chicken"">See Restaurant Recommendations</a>"
-chicken feet,226,36,3.650442477876106,3.696241349879535,"<a href=""/apps/rest/chicken_feet"">See Restaurant Recommendations</a>"
-chicken soup,55,45,3.1818181818181817,3.1305081565424144,"<a href=""/apps/rest/chicken_soup"">See Restaurant Recommendations</a>"
-chicken wings,319,148,3.699059561128527,3.701171895623257,"<a href=""/apps/rest/chicken_wings"">See Restaurant Recommendations</a>"
-chop suey,55,46,3.4545454545454546,3.344893809121945,"<a href=""/apps/rest/chop_suey"">See Restaurant Recommendations</a>"
-chow fun,427,158,3.6276346604215455,3.6557564333665487,"<a href=""/apps/rest/chow_fun"">See Restaurant Recommendations</a>"
-chow mein,758,351,3.3390501319261214,3.3454888282152857,"<a href=""/apps/rest/chow_mein"">See Restaurant Recommendations</a>"
-crab rangoon,264,158,3.5,3.485074733924766,"<a href=""/apps/rest/crab_rangoon"">See Restaurant Recommendations</a>"
-crispy beef,65,18,4.138461538461539,4.113131892015915,"<a href=""/apps/rest/crispy_beef"">See Restaurant Recommendations</a>"
-dried shrimp,22,17,3.909090909090909,3.9121064921132036,"<a href=""/apps/rest/dried_shrimp"">See Restaurant Recommendations</a>"
-duck sauce,62,51,3.532258064516129,3.6076234123339566,"<a href=""/apps/rest/duck_sauce"">See Restaurant Recommendations</a>"
-duck soup,20,18,3.4,3.418116757121964,"<a href=""/apps/rest/duck_soup"">See Restaurant Recommendations</a>"
-emerald chicken,77,2,4.1558441558441555,4.088961639765845,"<a href=""/apps/rest/emerald_chicken"">See Restaurant Recommendations</a>"
-fat choy,7,1,3.4285714285714284,3.5432992037642226,"<a href=""/apps/rest/fat_choy"">See Restaurant Recommendations</a>"
-fried chicken,360,202,3.466666666666667,3.495088733600345,"<a href=""/apps/rest/fried_chicken"">See Restaurant Recommendations</a>"
-fried dough,24,21,3.375,3.333085528251951,"<a href=""/apps/rest/fried_dough"">See Restaurant Recommendations</a>"
-fried rice,3663,713,3.5072345072345072,3.519159242149625,"<a href=""/apps/rest/fried_rice"">See Restaurant Recommendations</a>"
-fried shrimp,211,119,3.6018957345971563,3.6037277552950044,"<a href=""/apps/rest/fried_shrimp"">See Restaurant Recommendations</a>"
-fried tofu,164,84,3.8536585365853657,3.8884277847116704,"<a href=""/apps/rest/fried_tofu"">See Restaurant Recommendations</a>"
-general chicken,31,26,3.096774193548387,3.136140806572505,"<a href=""/apps/rest/general_chicken"">See Restaurant Recommendations</a>"
-general tso's chicken,53,47,3.452830188679245,3.4863835573282143,"<a href=""/apps/rest/general_tso's_chicken"">See Restaurant Recommendations</a>"
-glutinous rice,17,13,3.2941176470588234,3.4371329543164104,"<a href=""/apps/rest/glutinous_rice"">See Restaurant Recommendations</a>"
-hainanese chicken rice,3,3,4.0,4.0309774775865375,"<a href=""/apps/rest/hainanese_chicken_rice"">See Restaurant Recommendations</a>"
-hot n sour soup,32,30,3.78125,3.8445774895894633,"<a href=""/apps/rest/hot_n_sour_soup"">See Restaurant Recommendations</a>"
-jade chicken,78,2,3.8974358974358974,3.911834118010811,"<a href=""/apps/rest/jade_chicken"">See Restaurant Recommendations</a>"
-jasmine rice,25,18,3.36,3.2225969214904895,"<a href=""/apps/rest/jasmine_rice"">See Restaurant Recommendations</a>"
-jerk fried rice,99,2,4.232323232323233,4.184656042179594,"<a href=""/apps/rest/jerk_fried_rice"">See Restaurant Recommendations</a>"
-kung pao,373,237,3.5013404825737267,3.4904971053430733,"<a href=""/apps/rest/kung_pao"">See Restaurant Recommendations</a>"
-kung pao chicken,217,157,3.423963133640553,3.3778731987427664,"<a href=""/apps/rest/kung_pao_chicken"">See Restaurant Recommendations</a>"
-lo mein,548,299,3.428832116788321,3.417025993698175,"<a href=""/apps/rest/lo_mein"">See Restaurant Recommendations</a>"
-mapo tofu,48,35,3.5,3.467969080151213,"<a href=""/apps/rest/mapo_tofu"">See Restaurant Recommendations</a>"
-minced pork,61,34,3.9672131147540983,4.0444859692862485,"<a href=""/apps/rest/minced_pork"">See Restaurant Recommendations</a>"
-mongolian bbq,17,12,3.5294117647058822,3.456430879019383,"<a href=""/apps/rest/mongolian_bbq"">See Restaurant Recommendations</a>"
-mongolian beef,306,191,3.604575163398693,3.597173042499911,"<a href=""/apps/rest/mongolian_beef"">See Restaurant Recommendations</a>"
-mu shu pork,23,22,3.739130434782609,3.68386321443629,"<a href=""/apps/rest/mu_shu_pork"">See Restaurant Recommendations</a>"
-noodle dish,509,175,3.4597249508840866,3.4840275094986706,"<a href=""/apps/rest/noodle_dish"">See Restaurant Recommendations</a>"
-noodle soup,1032,163,3.5968992248062017,3.6074765683215904,"<a href=""/apps/rest/noodle_soup"">See Restaurant Recommendations</a>"
-orange chicken,1190,466,3.561344537815126,3.5574411820743146,"<a href=""/apps/rest/orange_chicken"">See Restaurant Recommendations</a>"
-orange peel,67,49,3.4925373134328357,3.5174607763968786,"<a href=""/apps/rest/orange_peel"">See Restaurant Recommendations</a>"
-pan fried,331,139,3.619335347432024,3.6596772107823488,"<a href=""/apps/rest/pan_fried"">See Restaurant Recommendations</a>"
-peking duck,67,40,3.9402985074626864,3.891371325857329,"<a href=""/apps/rest/peking_duck"">See Restaurant Recommendations</a>"
-pork and veggies,11,11,3.909090909090909,3.9706415053785173,"<a href=""/apps/rest/pork_and_veggies"">See Restaurant Recommendations</a>"
-pork belly,338,54,3.997041420118343,4.02087443355472,"<a href=""/apps/rest/pork_belly"">See Restaurant Recommendations</a>"
-pork blood,14,7,3.857142857142857,3.8613781346612055,"<a href=""/apps/rest/pork_blood"">See Restaurant Recommendations</a>"
-pork buns,278,48,3.633093525179856,3.609669557861237,"<a href=""/apps/rest/pork_buns"">See Restaurant Recommendations</a>"
-pork chop,332,89,3.786144578313253,3.7386999379538643,"<a href=""/apps/rest/pork_chop"">See Restaurant Recommendations</a>"
-pork chop rice,24,12,3.5833333333333335,3.480156115963257,"<a href=""/apps/rest/pork_chop_rice"">See Restaurant Recommendations</a>"
-pork dumplings,144,63,3.6597222222222223,3.625028022628433,"<a href=""/apps/rest/pork_dumplings"">See Restaurant Recommendations</a>"
-pork ribs,66,54,3.5,3.5410978249896474,"<a href=""/apps/rest/pork_ribs"">See Restaurant Recommendations</a>"
-rice cake,99,36,3.8181818181818183,3.777554764001494,"<a href=""/apps/rest/rice_cake"">See Restaurant Recommendations</a>"
-rice noodle,407,159,3.597051597051597,3.6304526408465936,"<a href=""/apps/rest/rice_noodle"">See Restaurant Recommendations</a>"
-rice paper,31,22,3.2903225806451615,3.3111387881182206,"<a href=""/apps/rest/rice_paper"">See Restaurant Recommendations</a>"
-roast duck,216,60,3.7268518518518516,3.7541025018050216,"<a href=""/apps/rest/roast_duck"">See Restaurant Recommendations</a>"
-roast pork,133,45,3.7293233082706765,3.72007441793992,"<a href=""/apps/rest/roast_pork"">See Restaurant Recommendations</a>"
-sesame chicken,381,235,3.4750656167979,3.4365075718179012,"<a href=""/apps/rest/sesame_chicken"">See Restaurant Recommendations</a>"
-sesame seed,68,57,3.5,3.49183265139144,"<a href=""/apps/rest/sesame_seed"">See Restaurant Recommendations</a>"
-shark fin soup,20,13,2.95,3.0017320843837014,"<a href=""/apps/rest/shark_fin_soup"">See Restaurant Recommendations</a>"
-shrimp dumplings,130,44,3.6538461538461537,3.6763364233112603,"<a href=""/apps/rest/shrimp_dumplings"">See Restaurant Recommendations</a>"
-shrimp paste,21,16,3.3333333333333335,3.4040749026208825,"<a href=""/apps/rest/shrimp_paste"">See Restaurant Recommendations</a>"
-singapore noodles,27,22,3.4444444444444446,3.3304657217245204,"<a href=""/apps/rest/singapore_noodles"">See Restaurant Recommendations</a>"
-soup dumplings,103,22,3.6116504854368934,3.574614733063448,"<a href=""/apps/rest/soup_dumplings"">See Restaurant Recommendations</a>"
-steamed rice,243,176,3.234567901234568,3.3047686752166947,"<a href=""/apps/rest/steamed_rice"">See Restaurant Recommendations</a>"
-sticky rice,194,64,3.845360824742268,3.792037567199114,"<a href=""/apps/rest/sticky_rice"">See Restaurant Recommendations</a>"
-stir fried,189,113,3.634920634920635,3.6326542891736433,"<a href=""/apps/rest/stir_fried"">See Restaurant Recommendations</a>"
-walnut shrimp,287,149,3.8536585365853657,3.8448993455011937,"<a href=""/apps/rest/walnut_shrimp"">See Restaurant Recommendations</a>"
-white rice,560,312,3.25,3.288803437486125,"<a href=""/apps/rest/white_rice"">See Restaurant Recommendations</a>"
-wonton noodle soup,118,39,3.305084745762712,3.346102666732922,"<a href=""/apps/rest/wonton_noodle_soup"">See Restaurant Recommendations</a>"
-wonton soup,519,247,3.5260115606936417,3.5090204827330593,"<a href=""/apps/rest/wonton_soup"">See Restaurant Recommendations</a>"
-wonton strips,22,18,3.5,3.575400457828438,"<a href=""/apps/rest/wonton_strips"">See Restaurant Recommendations</a>"
+baby bok choy,62,48,3.8225806451612905,3.869372882283644,/apps/rest/baby_bok_choy
+bamboo shoots,72,62,3.458333333333333,3.637296733943272,/apps/rest/bamboo_shoots
+bbq pork,283,117,3.537102473498233,3.541542991705142,/apps/rest/bbq_pork
+bbq pork buns,37,18,3.702702702702703,3.661454113850458,/apps/rest/bbq_pork_buns
+beef chow fun,175,81,3.657142857142857,3.6447998300760487,/apps/rest/beef_chow_fun
+beef noodle soup,297,53,3.7138047138047137,3.681288264028375,/apps/rest/beef_noodle_soup
+beef roll,89,14,3.7191011235955056,3.752481527724884,/apps/rest/beef_roll
+beef stew,116,54,3.5948275862068964,3.66546964944433,/apps/rest/beef_stew
+beef tendon,69,29,3.63768115942029,3.64906015184517,/apps/rest/beef_tendon
+beef tongue,26,7,3.923076923076923,3.879724121917174,/apps/rest/beef_tongue
+black sesame,41,12,4.2926829268292686,4.22327675146921,/apps/rest/black_sesame
+bok choy,217,114,3.728110599078341,3.7728080049245776,/apps/rest/bok_choy
+brown rice,448,192,3.6049107142857135,3.603269041673694,/apps/rest/brown_rice
+cashew chicken,145,110,3.206896551724138,3.2316331736379498,/apps/rest/cashew_chicken
+chicken feet,226,36,3.650442477876106,3.696241349879535,/apps/rest/chicken_feet
+chicken soup,55,45,3.1818181818181817,3.1305081565424144,/apps/rest/chicken_soup
+chicken wings,319,148,3.699059561128527,3.701171895623257,/apps/rest/chicken_wings
+chop suey,55,46,3.4545454545454546,3.344893809121945,/apps/rest/chop_suey
+chow fun,427,158,3.6276346604215455,3.6557564333665487,/apps/rest/chow_fun
+chow mein,758,351,3.339050131926121,3.3454888282152857,/apps/rest/chow_mein
+crab rangoon,264,158,3.5,3.485074733924766,/apps/rest/crab_rangoon
+crispy beef,65,18,4.138461538461539,4.113131892015915,/apps/rest/crispy_beef
+dried shrimp,22,17,3.909090909090909,3.912106492113204,/apps/rest/dried_shrimp
+duck sauce,62,51,3.532258064516129,3.607623412333957,/apps/rest/duck_sauce
+duck soup,20,18,3.4,3.418116757121964,/apps/rest/duck_soup
+emerald chicken,77,2,4.155844155844156,4.088961639765845,/apps/rest/emerald_chicken
+fat choy,7,1,3.4285714285714284,3.5432992037642226,/apps/rest/fat_choy
+fried chicken,360,202,3.466666666666667,3.495088733600345,/apps/rest/fried_chicken
+fried dough,24,21,3.375,3.333085528251951,/apps/rest/fried_dough
+fried rice,3663,713,3.5072345072345072,3.519159242149625,/apps/rest/fried_rice
+fried shrimp,211,119,3.6018957345971563,3.603727755295005,/apps/rest/fried_shrimp
+fried tofu,164,84,3.8536585365853657,3.8884277847116704,/apps/rest/fried_tofu
+general chicken,31,26,3.096774193548387,3.136140806572505,/apps/rest/general_chicken
+general tso's chicken,53,47,3.452830188679245,3.4863835573282143,/apps/rest/general_tso's_chicken
+glutinous rice,17,13,3.294117647058824,3.4371329543164104,/apps/rest/glutinous_rice
+hainanese chicken rice,3,3,4.0,4.0309774775865375,/apps/rest/hainanese_chicken_rice
+hot n sour soup,32,30,3.78125,3.8445774895894633,/apps/rest/hot_n_sour_soup
+jade chicken,78,2,3.897435897435898,3.911834118010811,/apps/rest/jade_chicken
+jasmine rice,25,18,3.36,3.222596921490489,/apps/rest/jasmine_rice
+jerk fried rice,99,2,4.232323232323233,4.184656042179594,/apps/rest/jerk_fried_rice
+kung pao,373,237,3.5013404825737267,3.4904971053430733,/apps/rest/kung_pao
+kung pao chicken,217,157,3.423963133640553,3.3778731987427664,/apps/rest/kung_pao_chicken
+lo mein,548,299,3.428832116788321,3.417025993698175,/apps/rest/lo_mein
+mapo tofu,48,35,3.5,3.467969080151213,/apps/rest/mapo_tofu
+minced pork,61,34,3.9672131147540974,4.0444859692862485,/apps/rest/minced_pork
+mongolian bbq,17,12,3.5294117647058822,3.456430879019383,/apps/rest/mongolian_bbq
+mongolian beef,306,191,3.604575163398693,3.597173042499911,/apps/rest/mongolian_beef
+mu shu pork,23,22,3.739130434782609,3.68386321443629,/apps/rest/mu_shu_pork
+noodle dish,509,175,3.4597249508840866,3.4840275094986706,/apps/rest/noodle_dish
+noodle soup,1032,163,3.5968992248062017,3.6074765683215904,/apps/rest/noodle_soup
+orange chicken,1190,466,3.561344537815126,3.5574411820743146,/apps/rest/orange_chicken
+orange peel,67,49,3.492537313432836,3.5174607763968786,/apps/rest/orange_peel
+pan fried,331,139,3.619335347432024,3.6596772107823488,/apps/rest/pan_fried
+peking duck,67,40,3.9402985074626864,3.891371325857329,/apps/rest/peking_duck
+pork and veggies,11,11,3.909090909090909,3.970641505378517,/apps/rest/pork_and_veggies
+pork belly,338,54,3.997041420118343,4.02087443355472,/apps/rest/pork_belly
+pork blood,14,7,3.857142857142857,3.8613781346612055,/apps/rest/pork_blood
+pork buns,278,48,3.633093525179856,3.609669557861237,/apps/rest/pork_buns
+pork chop,332,89,3.786144578313253,3.738699937953864,/apps/rest/pork_chop
+pork chop rice,24,12,3.583333333333333,3.480156115963257,/apps/rest/pork_chop_rice
+pork dumplings,144,63,3.6597222222222223,3.625028022628433,/apps/rest/pork_dumplings
+pork ribs,66,54,3.5,3.5410978249896474,/apps/rest/pork_ribs
+rice cake,99,36,3.8181818181818175,3.777554764001494,/apps/rest/rice_cake
+rice noodle,407,159,3.597051597051597,3.6304526408465936,/apps/rest/rice_noodle
+rice paper,31,22,3.290322580645161,3.3111387881182206,/apps/rest/rice_paper
+roast duck,216,60,3.726851851851852,3.7541025018050216,/apps/rest/roast_duck
+roast pork,133,45,3.729323308270677,3.72007441793992,/apps/rest/roast_pork
+sesame chicken,381,235,3.4750656167979,3.436507571817901,/apps/rest/sesame_chicken
+sesame seed,68,57,3.5,3.49183265139144,/apps/rest/sesame_seed
+shark fin soup,20,13,2.95,3.001732084383701,/apps/rest/shark_fin_soup
+shrimp dumplings,130,44,3.6538461538461537,3.67633642331126,/apps/rest/shrimp_dumplings
+shrimp paste,21,16,3.333333333333333,3.4040749026208825,/apps/rest/shrimp_paste
+singapore noodles,27,22,3.4444444444444446,3.3304657217245204,/apps/rest/singapore_noodles
+soup dumplings,103,22,3.611650485436893,3.574614733063448,/apps/rest/soup_dumplings
+steamed rice,243,176,3.234567901234568,3.3047686752166947,/apps/rest/steamed_rice
+sticky rice,194,64,3.845360824742268,3.792037567199114,/apps/rest/sticky_rice
+stir fried,189,113,3.634920634920635,3.6326542891736433,/apps/rest/stir_fried
+walnut shrimp,287,149,3.8536585365853657,3.8448993455011937,/apps/rest/walnut_shrimp
+white rice,560,312,3.25,3.288803437486125,/apps/rest/white_rice
+wonton noodle soup,118,39,3.305084745762712,3.346102666732922,/apps/rest/wonton_noodle_soup
+wonton soup,519,247,3.5260115606936417,3.5090204827330598,/apps/rest/wonton_soup
+wonton strips,22,18,3.5,3.575400457828438,/apps/rest/wonton_strips
