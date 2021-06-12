@@ -49,7 +49,7 @@ def get_df_plot(dish_name):
 def get_rest_plot(dish_name):
     df_plot = get_df_plot(dish_name)
     fig = px.scatter(df_plot, y='rating_avg_weighted', x="num_dish_review", color="stars",
-                     color_continuous_scale='Bluered', hover_name="name")
+                     color_continuous_scale='Bluered', hover_name="name", custom_data=['longitude', 'latitude'])
     hovertemplate = "restaurant name: %{hovertext}<br>restaurant stars: %{marker.color}<br>" + \
                     "number of reviews for dish: %{x}<br>average rating for dish: %{y:.2f}<br>"
     fig.update_traces(hovertemplate=hovertemplate,
@@ -58,3 +58,15 @@ def get_rest_plot(dish_name):
     fig.update_layout(xaxis=dict(title='number of reviews mentioning '+' '.join(dish_name.split('_'))),
                       yaxis=dict(title='average rating'))
     return fig
+
+
+def get_gmap_text(clickData):
+    # pull restaurant name from click Data
+    rest_name = clickData['points'][0]['hovertext']
+    # pull restaurant longitude from click Data
+    rest_long = clickData['points'][0]['customdata'][0]
+    # pull restaurant latitude from click Data
+    rest_lat = clickData['points'][0]['customdata'][1]
+    # synthesize gmap link
+    gmap_link = 'https://www.google.com/maps/search/'+'+'.join(rest_name.split())+f'/@{rest_lat},{rest_long},18z'
+    return f'#### {rest_name} was selected! Find it on [Google Map]({gmap_link})!'

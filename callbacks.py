@@ -57,3 +57,14 @@ def url_to_dish_selector(dish_name):
         return [helper.get_rest_plot(dish_name), {}]
     else:
         raise PreventUpdate
+
+
+# callback function to navigate customers to Google Map of the selected restaurant
+@app.callback(
+    Output('gmap_md', 'children'),
+    Input('rest_plot', 'clickData'))
+def url_to_dish_selector(clickData):
+    if clickData:
+        return helper.get_gmap_text(clickData)
+    else:
+        raise PreventUpdate

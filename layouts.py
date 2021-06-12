@@ -58,6 +58,7 @@ layout_rest_recom = html.Div([
         Each restaurant is represented as a data point in 2D plot, with dimensions as the number of reviews and
          average rating. Color is based on the number of stars for a restaurant.
     '''),
+    dcc.Markdown(id='gmap_md', children='Click on the restaurant of interest to activate its Google Map link here!'),
     dcc.Markdown('''
         Change mind? No problem! Try a different dish from the dropdown menu below!
     '''),
