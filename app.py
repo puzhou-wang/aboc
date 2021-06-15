@@ -7,4 +7,4 @@ logger = logging.getLogger(__name__)
 
 app = dash.Dash(__name__, suppress_callback_exceptions=True, title='A Bite of China', assets_folder='static',
                 assets_url_path='static')
-server = app.server
+application = app.server
