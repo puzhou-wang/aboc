@@ -3,7 +3,7 @@ import dash_html_components as html
 from dash.dependencies import Input, Output
 import logging
 
-from app import app
+from app import app, application
 from layouts import layout_entry, layout_dish_recom, layout_rest_recom
 import callbacks
 
@@ -39,4 +39,4 @@ def display_page(pathname):
 
 
 if __name__ == '__main__':
-    app.run_server(debug=False)
+    application.run(debug=False, port=8080)
