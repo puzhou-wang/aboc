@@ -1,7 +1,6 @@
 import logging
 import pandas as pd
 import plotly.express as px
-import plotly.graph_objs as go
 
 logging.basicConfig(level=logging.INFO)
 logger = logging.getLogger(__name__)
